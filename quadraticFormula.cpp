@@ -30,7 +30,10 @@ int main()
     }
     else
     {
-        cout<<"\nD is negative , so there is no real solution to this eq.";
+        cout<<"\n you are going to play with complex roots ";
+	x1= sqrt(-d)/2*a;
+		cout<<"\n x1 : "<<-b/2*a<<"+"<<x1<<"i";
+                cout<<"\n x2 : "<<-b/2*a<<"-"<<x1<<"i";
     }
     return 0;
 }
